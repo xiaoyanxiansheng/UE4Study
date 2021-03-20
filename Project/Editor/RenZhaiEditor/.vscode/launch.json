@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "RenZhaiEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditor Win64 Debug Build",
+			"program": "D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditor Win64 DebugGame Build",
+			"program": "D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditor Win64 Development Build",
+			"program": "D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditor (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditor Win64 Shipping Build",
+			"program": "D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditor (Test)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditor Win64 Test Build",
+			"program": "D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditorEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditorEditor Win64 Debug Build",
+			"program": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\RenZhaiEditor.uproject"
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditorEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditorEditor Win64 DebugGame Build",
+			"program": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\RenZhaiEditor.uproject"
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RenZhaiEditorEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RenZhaiEditorEditor Win64 Development Build",
+			"program": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\RenZhaiEditor.uproject"
+			],
+			"cwd": "E:\\soft\\unreal4\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\soft\\unreal4\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Project\\UE4Study\\Project\\Editor\\RenZhaiEditor\\RenZhaiEditor.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\soft\\unreal4\\UE_4.26"
+		}
+	]
+}

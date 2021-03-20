@@ -9,6 +9,6 @@ public class RenZhaiEditorTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "RenZhaiEditor" } );
+		ExtraModuleNames.AddRange( new string[] { "RenZhaiEditor" } ); 
 	}
 }
