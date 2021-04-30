@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "InsideUe4GameModeBase.generated.h"
+#include "UObjectSystemGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class INSIDEUE4_API AInsideUe4GameModeBase : public AGameModeBase
+class UOBJECTSYSTEM_API AUObjectSystemGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

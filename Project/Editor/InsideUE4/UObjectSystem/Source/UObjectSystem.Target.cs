@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class InsideUe4Target : TargetRules
+public class UObjectSystemTarget : TargetRules
 {
-	public InsideUe4Target( TargetInfo Target) : base(Target)
+	public UObjectSystemTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "InsideUe4" } );
+		ExtraModuleNames.AddRange( new string[] { "UObjectSystem" } );
 	}
 }
